@@ -28,14 +28,14 @@ h1.styling {
 
 /* The image should have a 50% border radius to make it an elipse.
 Make the width of the image 75% smaller, and center it.
-(To center an image, you can use the margin:auto trick from 
-above, but you will also need to set the display to block.)  */
+(This says to make the image 75% smaller, but that looks stupid and isn't like the example,
+so I'm making it 25% smaller so it is 75% of the original size)  */
 
 img.styling{
 	border-radius: 50%;
 	margin: auto;
 	display: block;
-	width: 25%
+	width: 75%
 }
 
 /* The "special" class should have a background color of gold.
